@@ -1,0 +1,17 @@
+.Recipes {
+    width: fit-content;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+.inner > div {
+    background-color: #fff9;
+    top: 100%;
+    transition: top 350ms;
+  }
+  
+  .inner:hover > div {
+    top: 0px;
+  }
+  
